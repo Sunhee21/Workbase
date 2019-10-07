@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActivityTransitionAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item><!--打开时右进左侧退出-->
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item><!--关闭时左侧进入原右侧退出-->
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColorHint">@color/gray_bdbdbd</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/black_222222</item>
+    </style>
+
+    <style name="EditTextStyle.Pwd">
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:paddingLeft">@dimen/dp_18</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+    <style name="EditTextStyle.Number">
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="EditTextStyle.NumberDecimal">
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="EditTextStyle.NumberPassword">
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+    <style name="TextStyle.XLSize">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="TextStyle.LSize">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="TextStyle.MSize">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="TextStyle.SSize">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+
+
+
+
+    <style name="HDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:background">@color/gray_eeeeee</item>
+    </style>
+
+    <style name="VDivider">
+        <item name="android:layout_width">@dimen/dp_1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/gray_eeeeee</item>
+    </style>
+
+
+    <!--NiceDialogStyle-->
+    <style name="NiceDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="BottomAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/nicedialog_bottom_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/nicedialog_bottom_exit_anim</item>
+    </style>
+
+    <style name="RightAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/nicedialog_right_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/nicedialog_right_exit_anim</item>
+    </style>
+
+    <style name="LeftAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/nicedialog_left_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/nicedialog_left_exit_anim</item>
+    </style>
+
+    <style name="TopAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/nicedialog_top_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/nicedialog_top_exit_anim</item>
+    </style>
+    <!--NiceDialogStyle-->
+</resources>
