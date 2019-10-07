@@ -31,7 +31,8 @@ public class ApiConstants {
 
 
 
-    public static String IMAGE_URL = "http://47.99.34.238/user/getAvatar?filename=";
+    public static String BASE_URL = "";
+    public static String IMAGE_URL = "";
 
 
     public static String getUserAvatar(String fn) {

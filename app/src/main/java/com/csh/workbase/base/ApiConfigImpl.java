@@ -1,6 +1,7 @@
 package com.csh.workbase.base;
 
 
+import com.csh.lib_framwork.http.ApiConfig;
 import com.csh.lib_framwork.http.IApiConfig;
 import com.csh.lib_framwork.http.interceptor.RequestInterceptor;
 import com.csh.workbase.http.common.ApiConstants;
@@ -20,7 +21,7 @@ public class ApiConfigImpl implements IApiConfig {
 
     @Override
     public String getBaseUrl() {
-        return "http://47.99.34.238";
+        return ApiConstants.BASE_URL;
     }
 
     @Override
